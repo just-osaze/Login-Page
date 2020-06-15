@@ -1,0 +1,69 @@
+/* style for the first page body */
+body{
+    text-align: center;
+    /* background-image:url("images/pic3.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cent{
+    position: relative;
+    margin:auto;
+    width: 50%;
+    border: 3px solid rgb(83, 127, 221);
+    padding: 20px;
+    text-align: center;
+    background-image: url("images/pic6.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* style for sign up page */
+.sign{
+    border: 3px solid black;
+    border-radius: 10px;
+    width:40%;
+    margin:auto;
+    margin-top: 50px;
+}
+
+hr{
+    width:70%
+}
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+#name, #pwd, #mail{
+    border:none;
+    border-bottom: 2px solid rgb(79, 28, 175);
+    background-color: transparent;
+    width:60%;
+    
+}
+
+input [type=text]:focus{
+    background-color: aqua;
+}
+
+textarea:focus, input:focus{
+    outline:none;
+    height: 20px;
+    font-size: 17px;
+}
+
+.check{
+    margin-left: -150px;
+    margin-top: 20px;
+}
+
+
+
+footer{
+    margin-top: 30px;
+}
